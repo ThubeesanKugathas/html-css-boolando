@@ -7,16 +7,84 @@
 .container {
     width: 1000px;
     margin: 20px auto 0;
-    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card {
     display: inline-block;
     width: 32%;
-    height: 500px;
-    border: 2px black solid;
+    height: 520px;
     margin: 0 5px;
     position: relative;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    right: 0;
+    top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+
+.discount, .sostenibilità {
+    display: inline-block;
+}
+
+.discount {
+    width: 35px;
+    height: 20px;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight:bold ;
+    line-height: 20px;
+    vertical-align: middle;
+
+}
+
+.sostenibilità {
+    color: white;
+    background-color:  #00875a;
+    height: 20px;
+    width: 75px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    
+    
+}
+
+.description{
+    font-size: 13px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.crossed {
+    text-decoration: line-through;
 }
 
 /* .card:hover {
