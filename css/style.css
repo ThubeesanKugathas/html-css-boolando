@@ -87,9 +87,6 @@
     text-decoration: line-through;
 }
 
-/* .card:hover {
-    background-color: #fff;
-} */
 
 
 .card img {
@@ -97,8 +94,13 @@
 }
 
 
+.second {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
 
-/* .default:hover {
-    display: none;
-} */
-
+.second:hover {
+    opacity: 1;
+}
