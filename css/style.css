@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto 0;
+    /* background-color: aquamarine; */
+}
+
+.card {
+    display: inline-block;
+    width: 32%;
+    height: 500px;
+    border: 2px black solid;
+    margin: 0 5px;
+    position: relative;
+}
+
+/* .card:hover {
+    background-color: #fff;
+} */
+
+
+.card img {
+    width: 100%;
+}
+
+
+
+/* .default:hover {
+    display: none;
+} */
+
